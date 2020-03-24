@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme-orange">
+    
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      
+      	<section class="panel panel-left panel-cover">
+			<h3 class="block-title">Bergdorf Woodman</h3>
+			<div class="block">
+				<article class="list">
+					<ul>
+						<li>
+							<a href="/clothing/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-tshirt"></i>
+								</div>
+								<div class="item-inner">
+								 Clothing
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/drinks/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-shoe-prints"></i>
+								</div>
+								<div class="item-inner">
+									Shoes
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/drinks/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-shopping-bag"></i>
+								</div>
+								<div class="item-inner">
+									Handbags
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/drinks/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-crown"></i>
+								</div>
+								<div class="item-inner">
+									Accesories
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/drinks/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-paint-brush"></i>
+								</div>
+								<div class="item-inner">
+									Beauty
+								</div>
+							</a>
+						</li>
+					</ul>
+				</article>
+				
+			</div>
+		</section>
+      
+
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                	<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+                </div>
+                <div class="title">Menu</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+              <!--<h2 class="block-title">Tìtulo de Contenido</h2>
+              <div class="block block-strong">
+                  <p>Texto de contenido</p>
+              </div>-->
+              <article class="menu bg-coffee">
+                <a href="/clothing/">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Clothing</h2>
+                          <p>The Latest Trends</p>
+                      </div> 
+                </a>
+              </article>
+              <article class="menu bg-breakfast">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Shoes</h2>
+                          <p>Designers Choices</p>
+                      </div>        
+              </article>
+              <article class="menu bg-munchies">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Handbags</h2>
+                          <p>Chic,Pois and Style</p>
+                      </div>        
+              </article>
+              <article class="menu bg-sandwiches">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Accesories</h2>
+                          <p>A Most for Everyone</p>
+                      </div>        
+              </article>
+              <article class="menu bg-drinks">
+                  <a href="/drinks/">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Beauty</h2>
+                          <p>Take Care</p>
+                      </div>
+                 </a>
+              </article>
+              
+          </div><!-- /page-content -->
+            
+        </section>
+          
+          
+      </div>
+    </div>
+    
+    
+    
+    <article class="popup popup-confirm">
+		
+		<div class="view">
+			<div class="page">
+			  <div class="page-content">
+					
+					<div class="block">
+					
+						<div class="icon-done">
+							<i class="material-icons">stars</i>
+						</div>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, error!</p>
+						
+						<div class="row">
+							<a href="/home/" class="link button button-fill btn-verde popup-close">Thanks for your Order</a>
+							<a href="/clothing/" class="link button btn-gris popup-close">Continue Shopping</a>
+						</div>
+						
+				  	</div>
+					
+			  </div>
+			</div>
+	
+	</article>
+    
+    
+    <script src="js/framework7.min.js"></script>
+    <script src="js/my-app.js"></script>
+    
+</body>
+</html>
